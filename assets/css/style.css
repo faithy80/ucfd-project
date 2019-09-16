@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700&display=swap');
+
+/* ----------------------- article override */
+
+.article-custom {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ----------------------- navbar override */
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-text {
+    color: #cbbe80;
+    font-weight: bold;
+}
+
+.navbar-bg {
+    background-color: #006b88;
+}
+
+.navbar .navbar-toggler-icon {
+    border: 0;
+}
+
+/* ----------------------- callout override */
+
+.callout-container {
+    height: 100vh;
+
+    background: url(../images/gym1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #cbbe20;
+}
+
+
+
+/* ----------------------- features override */
+
+.features-container {}
+
+/* ----------------------- quotes override */
+
+.quotes-container {}
+
+/* ----------------------- footer override */
+
+.footer-container {
+    font-family: 'Exo', sans-serif;
+    background-color: #525252;
+    color: #fff;
+}
+
+.footer-container h5 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-container p {
+    font-weight: 300;
+}
+
+.social-links li a i {
+    color: #fff;
+    font-size: 30px;
+}
+
+.social-links li a i:hover {
+    color: #f4951d;
+}
+
+.block-divider {
+    width: 25px;
+    height: 1px;
+    border: 0;
+    background-color: #fff;
+}
+
+.map {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.col-custom {
+    padding: 25px;
+}
+
+.col-custom h5,
+.col-custom ul {
+    text-align: center;
+}
+
+.col-custom i {
+    color: #f4951d;
+}
+
+.opening-hours {
+    display: block;
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    clear: both;
+
+    @media (max-width:767px) {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+.days {
+    text-transform: uppercase;
+    display: inline-block;
+    float: left;
+}
+
+.hours {
+    display: inline-block;
+    float: right;
+}
+
+/* ----------------------- misc */
+
+.btn-custom {
+    min-width: 100px;
+    border-radius: 25px;
+}
+
+.btn-modal-pos {
+    display: block;
+    margin: 0 auto;
+}
+
+.btn--orange {
+    color: #fff;
+    background-color: #f4951d;
+    border-color: #f4951d;
+}
+
+.btn--orange:hover,
+.btn--orange:active,
+.btn--orange:focus,
+.btn--orange:active:focus {
+    color: #fff;
+    background-color: #cc7b19;
+    border-color: #cc7b19;
+}
