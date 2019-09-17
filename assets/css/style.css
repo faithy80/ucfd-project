@@ -1,12 +1,14 @@
+/* ----------------------- fonts */
+
 @import url('https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700&display=swap');
 
-/* ----------------------- article override */
+/* ----------------------- article */
 
-.article-custom {
+article {
     font-family: 'Roboto', sans-serif;
 }
 
-/* ----------------------- navbar override */
+/* ----------------------- navbar */
 
 .navbar-brand {
     font-weight: bold;
@@ -21,11 +23,11 @@
     background-color: #006b88;
 }
 
-.navbar .navbar-toggler-icon {
+.navbar .navbar-toggler {
     border: 0;
 }
 
-/* ----------------------- callout override */
+/* ----------------------- callout */
 
 .callout-container {
     height: 100vh;
@@ -49,15 +51,63 @@
 
 
 
-/* ----------------------- features override */
+/* ----------------------- features */
 
 .features-container {}
 
-/* ----------------------- quotes override */
+/* ----------------------- quotes */
 
 .quotes-container {}
 
-/* ----------------------- footer override */
+/* ----------------------- classes */
+
+.classes-container {
+    height: 100vh;
+    background: url('../images/gym2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+/* ----------------------- equipments */
+
+.equipments-container {
+    height: 100vh;
+    background: url('../images/gym3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+/* ----------------------- timetables */
+
+.timetables-container {
+    height: 100vh;
+    background: url('../images/gym4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+/* ----------------------- contact */
+
+.contact-container {
+    height: 100vh;
+    background: url('../images/gym5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+/* ----------------------- footer */
 
 .footer-container {
     font-family: 'Exo', sans-serif;
@@ -111,28 +161,31 @@
 .opening-hours {
     display: block;
     text-align: center;
+    clear: both;
     padding-left: 60px;
     padding-right: 60px;
-    clear: both;
+}
 
-    @media (max-width:767px) {
-        padding-left: 0px;
-        padding-right: 0px;
+@media (max-width: 360px) {
+    .opening-hours {
+        display: block;
+        text-align: center;
+        clear: both;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
 .days {
     text-transform: uppercase;
-    display: inline-block;
     float: left;
 }
 
 .hours {
-    display: inline-block;
     float: right;
 }
 
-/* ----------------------- misc */
+/* ----------------------- other */
 
 .btn-custom {
     min-width: 100px;
