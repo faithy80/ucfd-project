@@ -1,14 +1,9 @@
-/* ----------------------- fonts */
+/* --------------------------------- fonts */
 
 @import url('https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700&display=swap');
 
-/* ----------------------- article */
 
-article {
-    font-family: 'Roboto', sans-serif;
-}
-
-/* ----------------------- navbar */
+/* --------------------------------- navbar */
 
 .navbar-brand {
     font-weight: bold;
@@ -27,39 +22,55 @@ article {
     border: 0;
 }
 
-/* ----------------------- callout */
+
+/* --------------------------------- callout */
 
 .callout-container {
     height: 100vh;
-
+    font-family: 'Roboto', sans-serif;
     background: url(../images/gym1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .jumbotron {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.75);
     color: #cbbe20;
 }
 
+.callout-container h1,
+.callout-container h2,
+.callout-container h4,
+.callout-container button {
+    margin: 30px;
+}
 
 
-/* ----------------------- features */
+/* --------------------------------- features */
 
-.features-container {}
+.features-container {
+    font-family: 'Exo', sans-serif;
+    background-color: #cbbe80;
+    color: #fff;
+}
 
-/* ----------------------- quotes */
 
-.quotes-container {}
+/* --------------------------------- quotes */
 
-/* ----------------------- classes */
+.quotes-container {
+    font-family: 'Exo', sans-serif;
+    background-color: #006b88;
+    color: #fff;
+}
+
+
+/* --------------------------------- classes */
 
 .classes-container {
     height: 100vh;
@@ -71,7 +82,8 @@ article {
     -o-background-size: cover;
 }
 
-/* ----------------------- equipments */
+
+/* --------------------------------- equipments */
 
 .equipments-container {
     height: 100vh;
@@ -83,7 +95,8 @@ article {
     -o-background-size: cover;
 }
 
-/* ----------------------- timetables */
+
+/* --------------------------------- timetables */
 
 .timetables-container {
     height: 100vh;
@@ -95,7 +108,8 @@ article {
     -o-background-size: cover;
 }
 
-/* ----------------------- contact */
+
+/* --------------------------------- contact */
 
 .contact-container {
     height: 100vh;
@@ -107,7 +121,8 @@ article {
     -o-background-size: cover;
 }
 
-/* ----------------------- footer */
+
+/* --------------------------------- footer */
 
 .footer-container {
     font-family: 'Exo', sans-serif;
@@ -117,7 +132,6 @@ article {
 
 .footer-container h5 {
     padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 .footer-container p {
@@ -133,28 +147,25 @@ article {
     color: #f4951d;
 }
 
-.block-divider {
-    width: 25px;
-    height: 1px;
-    border: 0;
-    background-color: #fff;
-}
-
 .map {
     padding-top: 20px;
     padding-bottom: 20px;
+    border: 0;
+    width: 100%;
+    height: 300px;
 }
 
-.col-custom {
-    padding: 25px;
+.footer-col {
+    padding-top: 25px;
+    padding-bottom: 10px;
 }
 
-.col-custom h5,
-.col-custom ul {
+.footer-col h5,
+.footer-col ul {
     text-align: center;
 }
 
-.col-custom i {
+.footer-col i {
     color: #f4951d;
 }
 
@@ -168,9 +179,6 @@ article {
 
 @media (max-width: 360px) {
     .opening-hours {
-        display: block;
-        text-align: center;
-        clear: both;
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -185,11 +193,16 @@ article {
     float: right;
 }
 
-/* ----------------------- other */
+
+/* --------------------------------- other */
 
 .btn-custom {
-    min-width: 100px;
+    min-width: 90px;
     border-radius: 25px;
+}
+
+.btn-callout {
+    min-width: 200px;
 }
 
 .btn-modal-pos {
@@ -200,7 +213,7 @@ article {
 .btn--orange {
     color: #fff;
     background-color: #f4951d;
-    border-color: #f4951d;
+    border-color: #cc7b19;
 }
 
 .btn--orange:hover,
@@ -209,5 +222,31 @@ article {
 .btn--orange:active:focus {
     color: #fff;
     background-color: #cc7b19;
-    border-color: #cc7b19;
+}
+
+.text-centered {
+    text-align: center;
+}
+
+.heading {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+.block-divider {
+    border: 0;
+    height: 2px;
+    width: 50px;
+    background-color: #fff;
+}
+
+.block-divider-lg {
+    height: 4px;
+    width: 100px;
+}
+
+.block-divider-sm {
+    height: 1px;
+    width: 25px;
 }
