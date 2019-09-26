@@ -113,12 +113,38 @@
 
 .contact-container {
     height: 100vh;
-    background: url('../images/gym5.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    background-color: #cbbe80;
+    color: #006b88;
+}
+
+.contact-heading {
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+
+.contact-text {
+    padding-bottom: 20px;
+}
+
+.form-contact {
+    display: block;
+    width: 50%;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 20px auto;
+}
+
+@media (max-width: 576px) {
+    .contact-heading {
+        padding-top: 70px;
+        padding-bottom: 10px;
+    }
+
+    .form-contact {
+        width: 80%;
+        margin: 10px auto;
+    }
 }
 
 
@@ -177,7 +203,7 @@
     padding-right: 60px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 768px) {
     .opening-hours {
         padding-left: 20px;
         padding-right: 20px;
@@ -203,6 +229,11 @@
 
 .btn-callout {
     min-width: 200px;
+}
+
+.btn-contact {
+    min-width: 200px;
+    margin-top: 20px;
 }
 
 .btn-modal-pos {
