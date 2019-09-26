@@ -10,7 +10,7 @@
 }
 
 .navbar .navbar-text {
-    color: #cbbe80;
+    color: #cbbe20;
     font-weight: bold;
 }
 
@@ -56,7 +56,7 @@
 
 .features-container {
     font-family: 'Exo', sans-serif;
-    background-color: #cbbe80;
+    background-color: #f4951d;
     color: #fff;
 }
 
@@ -74,12 +74,9 @@
 
 .classes-container {
     height: 100vh;
-    background: url('../images/gym2.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    color: #006b88;
+    background-color: #d2e5b7;
 }
 
 
@@ -87,12 +84,9 @@
 
 .equipments-container {
     height: 100vh;
-    background: url('../images/gym3.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    color: #006b88;
+    background-color: #d2e5b7;
 }
 
 
@@ -100,12 +94,55 @@
 
 .timetables-container {
     height: 100vh;
-    background: url('../images/gym4.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    color: #006b88;
+    background-color: #d2e5b7;
+}
+
+.timetable-heading {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.timetable {
+    width: 60%;
+    margin: 0 auto;
+    color: #cbbe20;
+}
+
+.timetable-sm {
+    padding-bottom: 20px;
+}
+
+.timetable-sm h3 {
+    color: #f4951d;
+}
+
+.timetable-custom {
+    display: block;
+    clear: both;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #e95030;
+}
+
+.timetable-day {
+    display: inline;
+    float: left;
+}
+
+.timetable-time {
+    display: inline;
+    float: right;
+}
+
+@media (max-width: 360px) {
+    .timetable-heading {
+        padding-top: 80px;
+        padding-bottom: 40px;
+        font-size: 25px;
+    }
 }
 
 
@@ -114,11 +151,12 @@
 .contact-container {
     height: 100vh;
     font-family: 'Roboto', sans-serif;
-    background-color: #cbbe80;
     color: #006b88;
+    background-color: #d2e5b7;
 }
 
 .contact-heading {
+    font-weight: bold;
     padding-top: 120px;
     padding-bottom: 30px;
 }
