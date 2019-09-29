@@ -3,6 +3,82 @@
 @import url('https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700&display=swap');
 
 
+/* --------------------------------- general */
+
+.text-centered {
+    text-align: center;
+}
+
+.heading {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+.block-divider {
+    border: 0;
+    height: 2px;
+    width: 50px;
+    background-color: #fff;
+}
+
+.block-divider-lg {
+    height: 4px;
+    width: 100px;
+}
+
+.block-divider-sm {
+    height: 1px;
+    width: 25px;
+}
+
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #cbbe20;
+    margin: 20px 0;
+    padding: 20px 10px;
+}
+
+@media (min-width: 1200px) {
+    .jumbotron {
+        min-width: 1200px;
+    }
+}
+
+.btn-custom {
+    min-width: 90px;
+    border-radius: 25px;
+}
+
+.btn-callout {
+    min-width: 200px;
+}
+
+.btn-contact {
+    min-width: 200px;
+    margin-top: 20px;
+}
+
+.btn-modal-pos {
+    display: block;
+    margin: 0 auto;
+}
+
+.btn--orange {
+    color: #fff;
+    background-color: #f4951d;
+    border-color: #cc7b19;
+}
+
+.btn--orange:hover,
+.btn--orange:active,
+.btn--orange:focus,
+.btn--orange:active:focus {
+    color: #fff;
+    background-color: #cc7b19;
+}
+
+
 /* --------------------------------- navbar */
 
 .navbar-brand {
@@ -20,169 +96,6 @@
 
 .navbar .navbar-toggler {
     border: 0;
-}
-
-
-/* --------------------------------- callout */
-
-.callout-container {
-    height: 100vh;
-    font-family: 'Roboto', sans-serif;
-    background: url(../images/gym1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.jumbotron {
-    background-color: rgba(0, 0, 0, 0.75);
-    color: #cbbe20;
-}
-
-.callout-container h1,
-.callout-container h2,
-.callout-container h4,
-.callout-container button {
-    margin: 30px;
-}
-
-
-/* --------------------------------- features */
-
-.features-container {
-    font-family: 'Exo', sans-serif;
-    background-color: #f4951d;
-    color: #fff;
-}
-
-
-/* --------------------------------- quotes */
-
-.quotes-container {
-    font-family: 'Exo', sans-serif;
-    background-color: #006b88;
-    color: #fff;
-}
-
-
-/* --------------------------------- classes */
-
-.classes-container {
-    height: 100vh;
-    font-family: 'Roboto', sans-serif;
-    color: #006b88;
-    background-color: #d2e5b7;
-}
-
-
-/* --------------------------------- equipments */
-
-.equipments-container {
-    height: 100vh;
-    font-family: 'Roboto', sans-serif;
-    color: #006b88;
-    background-color: #d2e5b7;
-}
-
-
-/* --------------------------------- timetables */
-
-.timetables-container {
-    height: 100vh;
-    font-family: 'Roboto', sans-serif;
-    color: #006b88;
-    background-color: #d2e5b7;
-}
-
-.timetable-heading {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-.timetable {
-    width: 60%;
-    margin: 0 auto;
-    color: #cbbe20;
-}
-
-.timetable-sm {
-    padding-bottom: 20px;
-}
-
-.timetable-sm h3 {
-    color: #f4951d;
-}
-
-.timetable-custom {
-    display: block;
-    clear: both;
-    font-size: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-    color: #e95030;
-}
-
-.timetable-day {
-    display: inline;
-    float: left;
-}
-
-.timetable-time {
-    display: inline;
-    float: right;
-}
-
-@media (max-width: 360px) {
-    .timetable-heading {
-        padding-top: 80px;
-        padding-bottom: 40px;
-        font-size: 25px;
-    }
-}
-
-
-/* --------------------------------- contact */
-
-.contact-container {
-    height: 100vh;
-    font-family: 'Roboto', sans-serif;
-    color: #006b88;
-    background-color: #d2e5b7;
-}
-
-.contact-heading {
-    font-weight: bold;
-    padding-top: 120px;
-    padding-bottom: 30px;
-}
-
-.contact-text {
-    padding-bottom: 20px;
-}
-
-.form-contact {
-    display: block;
-    width: 50%;
-    border-radius: 8px;
-    padding: 5px;
-    margin: 20px auto;
-}
-
-@media (max-width: 576px) {
-    .contact-heading {
-        padding-top: 70px;
-        padding-bottom: 10px;
-    }
-
-    .form-contact {
-        width: 80%;
-        margin: 10px auto;
-    }
 }
 
 
@@ -258,64 +171,265 @@
 }
 
 
-/* --------------------------------- other */
+/* --------------------------------- callout */
 
-.btn-custom {
-    min-width: 90px;
-    border-radius: 25px;
+.callout-container {
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background: url(../images/gym1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
 }
 
-.btn-callout {
-    min-width: 200px;
+.callout-container .jumbotron {
+    margin: auto;
 }
 
-.btn-contact {
-    min-width: 200px;
-    margin-top: 20px;
+.callout-container h1,
+.callout-container h2,
+.callout-container h4,
+.callout-container button {
+    margin: 30px;
 }
 
-.btn-modal-pos {
-    display: block;
-    margin: 0 auto;
+.callout-heading {
+    font-weight: bold;
+    color: #006b88;    
 }
 
-.btn--orange {
-    color: #fff;
+
+/* --------------------------------- features */
+
+.features-container {
+    font-family: 'Exo', sans-serif;
     background-color: #f4951d;
-    border-color: #cc7b19;
-}
-
-.btn--orange:hover,
-.btn--orange:active,
-.btn--orange:focus,
-.btn--orange:active:focus {
     color: #fff;
-    background-color: #cc7b19;
 }
 
-.text-centered {
-    text-align: center;
+
+/* --------------------------------- testimonial */
+
+.quotes-container {
+    font-family: 'Exo', sans-serif;
+    background-color: #006b88;
+    color: #fff;
 }
 
-.heading {
-    padding-top: 40px;
-    padding-bottom: 10px;
-    font-size: 30px;
+
+/* --------------------------------- equipments */
+
+.equipments-container {
+    font-family: 'Roboto', sans-serif;
+    background: url(../images/gym3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.block-divider {
-    border: 0;
-    height: 2px;
-    width: 50px;
-    background-color: #fff;
+.equipment-heading {
+    font-weight: bold;
+    color: #006b88;
+    padding-top: 60px;
+    padding-bottom: 20px;
 }
 
-.block-divider-lg {
-    height: 4px;
-    width: 100px;
+.card-custom {
+    width: 75%;
+    color: #000;
+    margin: 20px auto;
 }
 
-.block-divider-sm {
-    height: 1px;
-    width: 25px;
+
+/* --------------------------------- classes */
+
+.classes-container {
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background: url(../images/gym2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.classes-heading {
+    font-weight: bold;
+    color: #006b88;
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+
+.zumba-img,
+.pilates-img,
+.yoga-img,
+.boxfit-img {
+    width: 150px;
+    height: 75px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.media-body h5 {
+    color: #e95030;
+}
+
+@media (max-width: 576px) {
+    .media-body {
+        font-size: 14px;
+    }
+
+    .classes-heading {
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width: 360px) {
+    .media-body {
+        font-size: 11px;
+    }
+
+    .classes-heading {
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+}
+
+
+/* --------------------------------- timetables */
+
+.timetables-container {
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background: url(../images/gym4.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timetable-heading {
+    font-weight: bold;
+    padding-bottom: 50px;
+    color: #006b88;
+    padding-top: 20px;
+}
+
+.timetable {
+    width: 75%;
+    margin: 0 auto;
+    color: #cbbe20;
+}
+
+.timetable-sm {
+    padding-bottom: 20px;
+}
+
+.timetable-sm h3 {
+    color: #f4951d;
+}
+
+.timetable-custom {
+    display: block;
+    clear: both;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #e95030;
+}
+
+.timetable-day {
+    display: inline;
+    float: left;
+}
+
+.timetable-time {
+    display: inline;
+    float: right;
+}
+
+.timetable-bottom-text {
+    text-align: left;
+    font-style: italic;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+@media (max-width: 360px) {
+    .timetable-heading {
+        padding-top: 40px;
+        padding-bottom: 20px;
+        font-size: 25px;
+    }
+}
+
+
+/* --------------------------------- contact */
+
+.contact-container {
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background: url(../images/gym5.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-heading {
+    font-weight: bold;
+    color: #006b88;
+    padding-bottom: 30px;
+}
+
+.contact-text {
+    padding-bottom: 20px;
+}
+
+.form-contact {
+    display: block;
+    width: 50%;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 20px auto;
+}
+
+@media (max-width: 576px) {
+    .contact-heading {
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+
+    .form-contact {
+        width: 90%;
+        margin: 5px auto;
+    }
 }
