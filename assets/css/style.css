@@ -211,6 +211,17 @@
     font-family: 'Exo', sans-serif;
     background-color: #f4951d;
     color: #fff;
+    padding: 20px;
+}
+
+.features-heading {
+    padding-top: 30px;
+}
+
+.features {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: 20px;
 }
 
 
@@ -220,6 +231,15 @@
     font-family: 'Exo', sans-serif;
     background-color: #006b88;
     color: #fff;
+    padding: 20px;
+}
+
+.blockquote-custom {
+    padding: 50px;
+}
+
+.blockquote-footer-custom {
+    color: #cc7b19;
 }
 
 
