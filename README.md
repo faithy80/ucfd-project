@@ -30,7 +30,7 @@ The following features were implemented:
 This site was manually tested in several web browsers (Chrome, Firefox, Opera, Internet browser of my Samsung 4K television and Chrome developer mode) to ensure compatibility and responsiveness. The Safari browser is outdated on windows. It cannot open the website. The link of every social icon has the `target="_blank"` attribute to open the social site in a new tab. The button for the modals (register and sign in) remains focused after clicked, leaving a blue outline around the button. As it turned out, it is a browser problem. However the outline can be removed, I found an article [here](https://github.com/react-bootstrap/react-bootstrap/issues/1300) and [here](http://outlinenone.com/) that advised not to remove it.
 
 ## Deployment
-This site is deployed to Github pages. It updates automatically on a new commit to the repository. It can be cloned using `git clone https://github.com/faithy80/ucfd-project.git` in Command Line Interface or it can be downloaded from [here](https://github.com/faithy80/ucfd-project) to run the site locally. After downloading, double click on `index.html` or launch it from a web browser to start the home page of the website. 
+This site is deployed to Github pages. It updates automatically on a new push to the repository. It can be cloned using `git clone https://github.com/faithy80/ucfd-project.git` in Command Line Interface or it can be downloaded from [here](https://github.com/faithy80/ucfd-project) to run the site locally. After downloading, double click on `index.html` or launch it from a web browser to start the home page of the website. 
 
 ## Credits
 
