@@ -239,7 +239,7 @@
 }
 
 .blockquote-footer-custom {
-    color: #cc7b19;
+    color: #cbbe20;
 }
 
 
@@ -276,7 +276,6 @@
 /* --------------------------------- classes */
 
 .classes-container {
-    height: 100vh;
     font-family: 'Roboto', sans-serif;
     background: url(../images/gym2.jpg);
     background-repeat: no-repeat;
@@ -307,29 +306,23 @@
     margin-bottom: 10px;
 }
 
-.media-body h5 {
+.media-body {
+    padding-left: 20px;
+}
+
+.media-body h4 {
     color: #e95030;
 }
 
-@media (max-width: 576px) {
-    .media-body {
-        font-size: 14px;
-    }
-
-    .classes-heading {
-        padding-top: 20px;
-        padding-bottom: 0;
+@media (min-width: 577px) {
+    .classes-container {
+        height: 100vh;
     }
 }
 
-@media (max-width: 360px) {
-    .media-body {
-        font-size: 11px;
-    }
-
+@media (max-width: 576px) {
     .classes-heading {
-        padding-top: 20px;
-        padding-bottom: 0;
+        padding-top: 40px;
     }
 }
 
@@ -337,7 +330,6 @@
 /* --------------------------------- timetables */
 
 .timetables-container {
-    height: 100vh;
     font-family: 'Roboto', sans-serif;
     background: url(../images/gym4.jpg);
     background-repeat: no-repeat;
@@ -398,11 +390,16 @@
     padding-bottom: 30px;
 }
 
+@media (min-width: 361px) {
+    .timetables-container {
+        height: 100vh;
+    }
+}
+
 @media (max-width: 360px) {
     .timetable-heading {
         padding-top: 40px;
         padding-bottom: 20px;
-        font-size: 25px;
     }
 }
 
