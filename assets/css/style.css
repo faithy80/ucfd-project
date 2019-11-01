@@ -243,9 +243,9 @@
 }
 
 
-/* --------------------------------- equipments */
+/* --------------------------------- equipment */
 
-.equipments-container {
+.equipment-container {
     font-family: 'Roboto', sans-serif;
     background: url(../images/gym3.jpg);
     background-repeat: no-repeat;
@@ -308,6 +308,8 @@
 
 .media-body {
     padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .media-body h4 {

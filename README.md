@@ -27,7 +27,7 @@ The following features were implemented:
 * Navbar item shadow from Hover.CSS, [See here](https://ianlunn.github.io/Hover/)
 
 ## Testing
-This site was manually tested in several web browsers (Chrome, Firefox, Opera, Internet browser of my Samsung 4K television and Chrome developer mode) to ensure compatibility and responsiveness. The Safari browser is outdated on windows. It cannot open the website.
+This site was manually tested in several web browsers (Chrome, Firefox, Opera, Internet browser of my Samsung 4K television and Chrome developer mode) to ensure compatibility and responsiveness. The Safari browser is outdated on windows. It cannot open the website. My mentor, Brian tested the website on IOS and macOS Safari.
 
 The link of every social icon has the `target="_blank"` attribute to open the social site in a new tab.
 
@@ -57,6 +57,6 @@ The background photos were taken from [Unsplash.com](https://unsplash.com). The 
 I'd like to thank
 * Mentor Matt Rudge for the Whiskey Drop and Resume website tutorials,
 * Mentor Brian O'Grady for the User Experience Design tutorials,
-* Mentor Brian Macharia for guiding me through this project,
+* Mentor Brian Macharia for guiding me through this project and for testing the website on Safari,
 * Haley Schafer for the README.md example from her [ucfd-project](https://github.com/Code-Institute-Solutions/StudentExampleProjectGradeFive),
 * [Google Maps](https://maps.google.ie) for the map in the footer.
